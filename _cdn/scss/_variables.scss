@@ -1,0 +1,48 @@
+$color-green: #003326;
+$color-green-light: #96c1a2;
+$color-gold: #b0a42f;
+$color-salmon: #ddd7a3;
+$color-gray: #666;
+$color-gray-light: #e7e7e7;
+$color-white: #fff;
+$color-whats: #25D366;
+$color-gradiente: linear-gradient(to right, $color-green, $color-green-light);
+
+
+$theme-font-colors: () !default;
+$theme-font-colors: map_merge(
+    (
+        "green": $color-green,
+        "green-light": $color-green-light,
+        "gold": $color-gold,
+        "salmon": $color-salmon,
+        "gray": $color-gray,
+        "whats": $color-whats,
+        "white": $color-white,
+    ), $theme-font-colors
+);
+
+$background: () !default;
+$background: map_merge((
+    "white": $color-white,
+), $background);
+
+$gradients: () !default;
+$gradients: map_merge((
+    "blue": linear-gradient(to right, $color-green-light, $color-green)
+    ), $gradients);
+
+
+$fa-font-path: "../webfonts";
+
+    
+$button-hover-type: 'darken';
+$button-hover-amount: 10%;
+
+$gradient-hover-type: 'darken';
+$gradient-hover-amount: 5%;
+
+$margin-bottom-two-percent: 2%;
+
+
+

@@ -1,0 +1,40 @@
+.main_banner_vigilancia{
+    width: 100%;
+    min-height: 500px;
+    background: url('../images/banners/banner-vigilance.png');
+    // background: #069;
+    background-attachment: scroll;
+    background-size: cover;
+    // background-position: top left;
+
+    .main_banner_content{
+        margin: 0 auto;
+        padding: 0;
+        min-height: 500px;
+        display: flex;
+        align-items: flex-end;
+
+        .main_banner_content_text{
+            width: 80%;
+            min-height: 120px;
+            margin: 0 0 5% 5%;
+            // margin-bottom: 5%;
+            display: flex;
+            align-items: flex-end;
+            text-align: left;
+            .main_banner_content_text_desc{
+                width: 100%;
+                margin-bottom: 2%;
+                h2{
+                    font-size: 3em;
+                    text-transform: uppercase;
+                    color: $color-white;
+                }
+                p{
+                    color: $color-gold;
+                    font-size: 1.7em;
+                }
+            }
+        }
+    }
+}

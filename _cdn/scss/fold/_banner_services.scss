@@ -1,0 +1,39 @@
+.main_banner_services{
+    width: 100%;
+    min-height: 500px;
+    background: url('../images/banners/banner-service.png');
+    // background: #069;
+    background-attachment: scroll;
+    background-size: cover;
+    // background-position: top left;
+
+    .main_banner_content{
+        margin: 0 auto;
+        padding: 0;
+        min-height: 500px;
+        display: flex;
+        align-items: flex-end;
+
+        .main_banner_content_text{
+            width: 100%;
+            min-height: 120px;
+            margin-bottom: 5%;
+            display: flex;
+            align-items: flex-end;
+            text-align: center;
+            .main_banner_content_text_desc{
+                width: 100%;
+                margin-bottom: 2%;
+                h2{
+                    font-size: 2em;
+                    text-transform: uppercase;
+                    color: $color-gold;
+                }
+                p{
+                    color: $color-white;
+                    font-size: 1.7em;
+                }
+            }
+        }
+    }
+}

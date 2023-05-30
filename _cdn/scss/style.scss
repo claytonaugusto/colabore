@@ -1,0 +1,28 @@
+@import 'reset/reset';
+@import 'variables';
+
+@import 'fonts/Roboto/roboto';
+
+
+@import 'main/header';
+@import 'main/footer';
+
+@import'components/buttons';
+// @import'components/title';
+@import'fontawesome/fontawesome.scss';
+@import'fontawesome/brands.scss';
+@import'fontawesome/solid.scss';
+
+@import 'fold/banner';
+@import 'fold/banner_services';
+@import 'fold/banner_vigilancia';
+@import 'fold/about';
+@import 'fold/cta_home';
+@import 'fold/_whatsapp_home';
+@import 'fold/_video_home';
+@import 'fold/_differentials';
+
+@import 'fold/services';
+// @import 'fold/services_right';
+
+@import 'media/mediaquery';

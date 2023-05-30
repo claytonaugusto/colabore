@@ -1,0 +1,114 @@
+.main_cta_home{
+    width: 100%;
+    margin: 4% 0;
+
+    .main_cta_home_content{
+        margin: 0 auto;
+        min-height: 250px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+
+        .main_cta_home_desc{
+            width: 100%;
+            margin: 0;
+            padding: 0 3%;
+            color: $color-green;
+            font-style: italic;
+            text-align: center;
+
+            h2{
+                font-size: 2.2em;
+                margin-bottom: 2%;
+                line-height: 1.3;
+                font-weight: 900;
+            }
+            .light{
+                font-size: 2em;
+                font-weight: 400;
+            }
+            .btn{
+                min-width: 70%;
+                margin: 2%;
+                a{
+                    font-size: 2em;
+                    font-style: italic;
+                }
+            }
+        }
+
+        .page_services{
+            text-align: center;
+            h2{
+                font-style: normal;
+                font-size: 3em;
+                // margin-bottom: 2%;
+                // line-height: 1.3;
+                font-weight: 900;
+                a{
+                    text-decoration: none;
+                    color: $color-green;
+                    .fa-brands{
+                        color: $color-whats;
+                        margin-right: 1%;
+                    }
+                }
+            }
+            .light{
+                font-size: 2em;
+                padding: 0 80px;
+                font-weight: 400;
+                font-style: italic;
+                text-align: center;
+            }
+            .golden{
+                font-size: 2em;
+                color: $color-gold;
+                text-transform: uppercase;
+            }
+        }
+
+        .main_about_content_service{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            .main_about_content_service_desc{
+                width: 48%;
+                height: 110px;
+                margin: 20px 0;
+                padding: 0;
+                border-radius: 66px;
+                background-color: $color-green-light;
+                display: flex;
+                align-items: center;
+                span{
+                    width: 120px;
+                    height: 120px;
+                    padding: 10px;
+                    border-radius: 50%;
+                    background-color: $color-green;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: $color-white;
+                }
+                h3{
+                    // text-align: center;
+                    font-size: 1.4em;
+                    padding: 2%;
+                    color: $color-green;
+                    // margin-left: 4%;
+                }
+            }
+            .vigilancia{
+                background-color: $color-salmon;
+                span{
+                    background-color: $color-gold;
+                    color: $color-white;
+                }
+            }
+        }
+    }
+}

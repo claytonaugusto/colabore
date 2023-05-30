@@ -1,0 +1,71 @@
+.main_differentials{
+    width: 100%;
+    margin: 0;
+    padding: 2% 0;
+    background-color: $color-gold;
+
+    .main_differentials_content{
+        margin: 0 auto;
+        height: auto;
+        padding: 0;
+
+        .main_differentials_content_desc{
+            width: 80%;
+            margin: 0 auto;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            .main_differentials_content_title{
+                width: 100%;
+                height: auto;
+                margin: 2% 0;
+                padding: 2% 0;
+                h2{
+                    font-size: 3em;
+                    color: $color-green;
+                    text-transform: uppercase;
+                }
+            }
+            .main_differentials_content_desc_services{
+                width: 100%;
+                margin: 1% 0;
+                padding: 1%;
+                display: flex;
+                align-items: center;
+                .main_differentials_content_desc_services_icon{
+                    width: 12%;
+                    min-height: 100px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border: 2px solid $color-green;
+                    border-radius: 8px;
+                    span{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        color: $color-green;
+                       img{
+                        max-width: 70%;
+                        max-height: 70%;
+                       }
+                    }
+                }
+                .main_differentials_content_desc_services_text{
+                    margin-left: 2%;
+                    h2{
+                        font-size: 2em;
+                        color: $color-green;
+                    }
+                    p{
+                        max-width: 70%;
+                        font-size: 1.4em;
+                        color: $color-white;
+                        line-height: 1.2;
+                    }
+                }
+            }
+        }
+
+    }
+}

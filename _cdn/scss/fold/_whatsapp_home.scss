@@ -1,0 +1,84 @@
+.main_whatsapp_home{
+    width: 100%;
+    margin: 0;
+    padding: 2% 0;
+    background-color: $color-green;
+
+    .main_whatsapp_home_content{
+        margin: 0 auto;
+        min-height: 250px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+
+        .main_whatsapp_home_content_desc{
+            width: 80%;
+            margin: 0 auto;
+            padding: 2%;
+            border: 2px solid $color-gold;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+
+            .main_whatsapp_home_content_desc_icon{
+                width: 150px;
+                height: 150px;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                span{
+                    box-sizing: border-box;
+                    font-size: 120px;
+                    display: block;
+                    a{
+                        padding: 10px;
+                        color: $color-whats;    
+                    }
+                }
+            }
+            .main_whatsapp_home_content_desc_text{
+                margin-left: 2%;
+                padding: 0;
+                h3{
+                    font-size: 2.5em;
+                    color: $color-white;
+                    font-weight: 400;
+                    padding: 0;
+                }
+
+                h2{
+                    font-size: 2.5em;
+                    color: $color-gold;
+                    line-height: 1;
+                    text-transform: uppercase;
+                }
+            }
+
+        }
+
+    }
+}
+.white{
+    background-color: $color-white !important;
+
+    .main_whatsapp_home_content{
+
+        .main_whatsapp_home_content_desc{
+
+            .main_whatsapp_home_content_desc_text{
+                h3{
+                    color: $color-gray;
+                }
+
+                h2{
+                    color: $color-gold;
+                }
+            }
+
+        }
+
+    }
+
+}
+

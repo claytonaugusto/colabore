@@ -1,0 +1,95 @@
+.btn{
+    border-radius: 50px;
+    height: 70px;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    font-size: 0.875em;
+    cursor: pointer;
+    font-weight: 600;
+    transition: .5s;
+    
+    &:hover{
+        @if $button-hover-type == 'darken'{
+            background: darken(#666, $button-hover-amount);
+        } @else{
+            background: lighten(#666, $button-hover-amount);
+        }
+    }
+    
+    a{
+        text-decoration: none;
+        color: $color-green;
+    }
+    
+}
+.btn-footer{
+    height: 30px;
+    margin: 1% 0;
+    padding: 5px 10px;
+    outline: none;
+    border: 2px solid $color-white;
+    background: none;
+    font-size: 0.875em;
+    cursor: pointer;
+    font-weight: 600;
+    transition: .5s;
+    text-align: left;
+    text-transform: uppercase;
+
+    a{
+        text-decoration: none;
+        color: $color-white;
+    }
+}
+.btn-footer-white{
+    width: 70%;
+    height: 30px;
+    margin: 1% 0;
+    padding: 5px 10px;
+    outline: none;
+    border: 2px solid $color-white;
+    background: $color-white;
+    font-size: 0.875em;
+    cursor: pointer;
+    font-weight: 600;
+    transition: .5s;
+    text-align: left;
+    text-transform: uppercase;
+
+    a{
+        text-decoration: none;
+        color: $color-green;
+    }
+
+}
+
+@mixin button($color){
+    background: #{$color};
+    
+    &:hover{
+        @if $button-hover-type == 'lighten'{
+            background: darken($color, $button-hover-amount);
+        } @else{
+            background: lighten($color, $button-hover-amount);
+        }
+    }
+}
+
+
+@each $color, $value in $theme-font-colors{
+    .btn-#{$color}{
+        @include button($value);
+
+    }
+}
+
+@each $color, $value in $theme-font-colors{
+    .btn-footer#{$color}{
+        @include button($value);
+
+    }
+}
+.btn-larger{
+    min-width: 55%;
+}

@@ -1,0 +1,88 @@
+.main_footer{
+    width: 100%;
+    height: auto;
+    background-color: $color-green;
+    padding: 2% 0 0 0;
+
+    .footer_whatspp{
+        width: 80px;
+        height: 80px;
+        position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: $color-whats;
+        right: 10%;
+        bottom: 10%;
+        border-radius: 50%;
+        text-align: center;
+        a{
+            font-size: 2em;
+            padding: 20px;
+            color: $color-white;
+            // display: block;
+        }
+    }
+
+    .main_footer_content{
+        height: auto;
+        margin: 0 auto;
+        padding: 0;
+        .main_footer_content_desc{
+            display: flex;
+            justify-content: space-between;
+            .main_footer_content_desc_units{
+                p{
+                    color: $color-white;
+                    padding: 2% 0;
+                    a{
+                        text-decoration: none;
+                        color: $color-white;
+                    }
+                    .fa-brands{
+                        font-size: 1.5em;
+                        margin-right: 5px;
+                    }
+                }
+
+                img{
+                    max-width: 70%;
+                    max-height: 70%;
+                }
+                .main_footer_content_desc_units_address{
+                    display: flex;
+                    align-items: center;
+                    .main_footer_content_desc_units_address_icon{
+                        width: 20%;
+                        height: auto;
+                        margin-right: 3%;
+                        padding: 10px;
+                    }
+                    .main_footer_content_desc_units_address_icon_desc{
+                        p{
+                            line-height: 1;
+                        }
+                    }
+                }
+                .main_footer_content_desc_units_buttons{
+                    margin-top: 3%;
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+        }
+    }
+    .main_footer_line_white{
+        background: $color-white;
+        margin-top: 3%;
+        .main_footer_content{
+            margin: 0 auto;
+            padding: 10px;
+            .main_footer_line_white_text{
+                text-align: center;
+                font-size: 1em;
+                color: $color-gray;
+            }
+        }
+    }
+}
