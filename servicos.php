@@ -97,6 +97,9 @@
 
 <div class="main_cta_home">
     <div class="main_cta_home_content content">
+        <div class="main_cta_home_consulting">
+            <h2>Consultoria</h2>
+        </div>
         <div class="main_cta_home_desc page_services">
             <h2>Planos personalizados de serviços</h2>
             <h2 class="light">A Colabore analisa o real contexto do seu negócio e sugere o plano mais inteligente de serviços e profissionais para você.</h2>

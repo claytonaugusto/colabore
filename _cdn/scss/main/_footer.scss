@@ -12,7 +12,7 @@
         align-items: center;
         justify-content: center;
         background: $color-whats;
-        right: 10%;
+        right: 3%;
         bottom: 10%;
         border-radius: 50%;
         text-align: center;
@@ -68,6 +68,12 @@
                     margin-top: 3%;
                     display: flex;
                     flex-direction: column;
+
+                    button{
+                        img{
+                            margin-right: 2%;
+                        }
+                    }
                 }
             }
         }

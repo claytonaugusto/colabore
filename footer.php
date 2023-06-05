@@ -24,7 +24,8 @@
                 <div class="main_footer_content_desc_units_buttons">
                     <button class="btn-footer"><a href="">Código de ética e conduta</a></button>
                     <button class="btn-footer-white">
-                        <a href=""><i class="fa-solid fa-arrow-down-to-line"></i>Catálogo de serviços</a></button>
+                        <a href=""><img src="../colabore/_cdn/images/icons/download.png" alt="" srcset="">Catálogo de serviços</a></button>
+                    <i class="fa-solid fa-arrow-down-to-line"></i>
                 </div>
             </div>
             <div class="main_footer_content_desc_units">

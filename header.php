@@ -24,12 +24,12 @@
 
                 <div class="topnav">
                     <div class="main_header_nav_logo">
-                        <a href="#home"><img src="../colabore/_cdn/images/logotipos/colabore-logotipo.png" alt="" srcset=""></a>
+                        <a href="index.php"><img src="../colabore/_cdn/images/logotipos/colabore-logotipo.png" alt="" srcset=""></a>
                     </div>
                     <div id="myLinks">
                         <ul>
-                            <li><a href="">Home</a></li>
-                            <li><a href="">Sobre</a></li>
+                            <li><a href="index.php">Home</a></li>
+                            <li><a href="#sobre">Sobre</a></li>
                             <li><a href="servicos.php">Serviços</a></li>
                             <li><a href="vigilancia.php">Vigilância</a></li>
                             <li><a href="contato.php">Contato</a></li>

@@ -42,6 +42,60 @@
     <div class="main_services_content">
         <div class="main_services_content_left">
             <div class="main_services_content_int_left_img">
+                <img src="_cdn/images/vigilancia/seguranca-eletronica.png" alt="">
+            </div>
+        </div>
+        <div class="main_services_content_bg salmon">
+            <div class="main_services_content_desc">
+                <h2>Segurança<br>eletrônica</h2>
+                <p>Conjunto de serviços integrando a açao humana e equipamentos de alta tecnologia, promovendo uma maior segurança para ambientes e pessoas, através do monitoramento e ação rápida em casos de ocorrências.</p>
+                <ul>
+                    <li>Câmeras de segurança</li>
+                    <li>Circuito interno de TV</li>
+                    <li>Alarmes</li>
+                    <li>Central de monitoramento 24h</li>
+                    <li>Alertas em tempo real</li>
+                </ul>
+                <p>Inibe a ação de invasores | Resposta imediata | Rápida detecçao de ocorrências</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="main_services">
+    <div class="main_services_content">
+        <div class="main_services_content_right golden">
+            <div class="main_services_content_right_desc">
+                <h2>Central móvel</h2>
+                <h2>de monitoramento</h2>
+                <p>Posicionamos em campo um Central Móvel de Monitoramento que integra câmeras de alta definiçao com visão noturna e infravermelho. Ideal para espaços amplos e abertos que necessitam de maior flexibilidade no monitoramento.</p>
+
+                <p class="strong">Videomonitoramento</p>
+                <p class="italic">Inteligência Artificial</p>
+                <ul>
+                    <li>Vigilantes armados ou desarmados</li>
+                    <li>Orientações e protocolos de segurança</li>
+                    <li>Controle de acesso</li>
+                    <li>Monitoramento de áreas comuns</li>
+                    <li>Tecnologia e pessoas trabalhando juntos</li>
+                </ul>
+                <p class="small-italic">Rodovias | Mineradoras | Agricultura <br> Eventos | Locais Públicos | Usinas</p>
+            </div>
+        </div>
+        <div class="main_services_content_left">
+            <div class="main_services_content_int_left_img">
+                <img src="_cdn/images/vigilancia/central-movel-2.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="main_services">
+    <div class="main_services_content">
+        <div class="main_services_content_left">
+            <div class="main_services_content_int_left_img">
                 <img src="_cdn/images/vigilancia/seguranca-eventos.png" alt="">
             </div>
         </div>
@@ -111,7 +165,7 @@
     <div class="main_whatsapp_home_content content">
         <div class="main_whatsapp_home_content_desc">
             <div class="main_whatsapp_home_content_desc_icon">
-                <span><a href=""><i class="fa-brands fa-whatsapp"></i></a></span>
+                <span><a href="https://wa.me/553134739005" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></span>
             </div>
             <div class="main_whatsapp_home_content_desc_text">
                 <h3>Como podemos te ajudar?</h3>
